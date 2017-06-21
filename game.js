@@ -12,6 +12,7 @@ var fart = new ex.Actor(50, game.getDrawHeight() - 400, 50, 125);
 fart.color = ex.Color.Green
 fart.collisionType = ex.CollisionType.Fixed;
 game.add(fart)
+
 game.input.keyboard.on("press", (evt) => {
     switch (evt.key) {
         
